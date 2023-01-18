@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="subcontainer1">
+            <div class="subcontainerupper">
+                <h1>Calculate a weight of an object on a planet</h1>
+            </div>
+            <div class="subcontainerlower">
+                <div class="subcontainerlowerfirst">
+
+                    <input type="number" name="" id="number" style="height: 50%; margin-right: 1rem;" placeholder="Please enter Mass" >
+                    <select name="selectPlanet" id="selectPlanet" style="height: 50%; margin-right: 1rem;"></select>
+                </div>
+                <div class="subcontainerlowersecond">
+
+                    <button onclick="calculate()" style="height: 50%; margin-right: 1rem;" >calculate weight</button>
+                </div>
+            </div>
+        </div>
+        <div class="subcontainer2">
+            <div class="subcontainer2div">
+                <div class="subcontainer2divleft">
+                    <img class="imge" id="img" src="" alt="" >
+                </div>
+                <div class="subcontainer2divright">
+                    <div class="subcontainer2divrightmiddle">
+                        <div class="subcontainer2divrightmiddleupper">
+                            <h1 id="para" ></h1>
+                        </div>
+                        <div class="subcontainer2divrightmiddlelower">
+                            <div class="subcontainer2divrightmiddlelowercircle">
+                                <h1 id="h" ></h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

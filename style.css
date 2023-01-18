@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    background-color: black;
+    box-sizing: border-box;
+}
+h1, h2, p{
+    color: white;
+}
+.maincontainer{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    /* border: 2px solid greenyellow; */
+}
+.subcontainer1{
+    width: 100%;
+    height: 30%;
+    /* background-color: black; */
+    /* border: 2px solid red; */
+}
+.subcontainerlower,.subcontainerupper{
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid blue; */
+}
+.subcontainerupper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid yellow; */
+}
+.subcontainerlower{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+    /* border: 2px solid red; */
+}
+.subcontainer2{
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    /* background-color: black; */
+}
+.subcontainer2div{
+    width: 80%;
+    height: 99%;
+    /* border: 2px solid green; */
+    display: flex;
+}
+.subcontainer2divleft{
+    width: 50%;
+    height: 100%;
+    
+    /* border: 2px solid red; */
+
+}
+.subcontainer2divright{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+.subcontainer2divrightmiddle{
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid blue; */
+}
+.subcontainer2divrightmiddleupper{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+.subcontainer2divrightmiddlelower{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blue; */
+}
+.subcontainer2divrightmiddlelowercircle{
+    width: 25%;
+    height: 80%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+@media screen and (max-width: 672px) {
+    .subcontainer1{
+        width: 100%;
+        height: 50%;
+        /* background-color: black; */
+        /* border: 2px solid red; */
+    }
+    .subcontainerlowersecond,.subcontainerlowerfirst{
+        height: 50%;
+    }
+    .subcontainerlower{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1rem;
+        /* border: 2px solid red; */
+    }
+    .subcontainer2div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subcontainer2divrightmiddle{
+        height: 100%;
+    }
+    .subcontainer2divrightmiddleupper{
+        height: 50%;
+    }
+  }
+  
